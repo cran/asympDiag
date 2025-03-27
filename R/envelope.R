@@ -25,7 +25,6 @@
 #'
 #' @return An object of class `AD_envelope`, which contains the following components:
 #' \describe{
-#'   \item{expected}{A vector of expected quantiles from a normal distribution.}
 #'   \item{observed}{A vector of observed quantiles from the model residuals.}
 #'   \item{outside}{A logical vector indicating whether each observation falls
 #'   outside the constructed envelope bounds.}
@@ -217,7 +216,10 @@ plot.AD_envelope <- function(x,
                              xlab = "Expected quantiles",
                              ylab = "Observed quantiles",
                              distribution = function(p) stats::qnorm((1 + p) / 2),
-                             ylim = base::range(c(x$observed, x$lower, x$upper)),
+                             ylim = base::range(
+                               c(x$observed, x$lower, x$upper),
+                               na.rm = TRUE, finite = TRUE
+                             ),
                              ...) {
   n <- length(x$observed)
   expected <- distribution(stats::ppoints(n))

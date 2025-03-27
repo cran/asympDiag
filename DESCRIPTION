@@ -1,7 +1,7 @@
 Type: Package
 Package: asympDiag
 Title: Diagnostic Tools for Asymptotic Theory
-Version: 0.3.0
+Version: 0.3.1
 Authors@R: c(
     person("Álvaro", "Kothe", , "kothe65@gmail.com", role = c("aut", "cre", "cph"),
            comment = c(ORCID = "0000-0003-2114-3193")),
@@ -24,9 +24,9 @@ Config/testthat/edition: 3
 Encoding: UTF-8
 RoxygenNote: 7.3.2
 NeedsCompilation: no
-Packaged: 2025-03-25 19:43:18 UTC; alvarojsk
+Packaged: 2025-03-27 16:54:05 UTC; alvarojsk
 Author: Álvaro Kothe [aut, cre, cph] (<https://orcid.org/0000-0003-2114-3193>),
   Alexandre Patriota [aut]
 Maintainer: Álvaro Kothe <kothe65@gmail.com>
 Repository: CRAN
-Date/Publication: 2025-03-26 11:10:06 UTC
+Date/Publication: 2025-03-27 22:00:06 UTC

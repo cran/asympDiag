@@ -150,12 +150,26 @@ test_that("envelope don't show condition messages when its supposed to be remove
     )
   )
   withr::local_seed(1)
-  envelope(simple_lm_fit(), nsim = 2, refit_fn = function(.y) msg_fit(.y)) |>
+  envelope(simple_lm_fit(),
+    nsim = 2, refit_fn = function(.y) msg_fit(.y), plot.it = FALSE
+  ) |>
     expect_message("2 simulations shown messages")
   # It errors when remove all the simulations
-  envelope(simple_lm_fit(), nsim = 2, refit_fn = function(.y) msg_fit(.y), no_messages = TRUE) |>
+  envelope(simple_lm_fit(),
+    nsim = 2, refit_fn = function(.y) msg_fit(.y), no_messages = TRUE, plot.it = FALSE
+  ) |>
     expect_message("2 simulations shown messages") |>
     expect_error()
+})
+
+test_that("can plot envelope with extreme values", {
+  # NOTE: this is a test that used to fail on ARM64 arch
+  withr::local_seed(1)
+  envelope(simple_lm_fit(),
+    nsim = 2, refit_fn = function(.y) msg_fit(.y), plot.it = TRUE
+  ) |>
+    expect_no_error() |>
+    suppressMessages()
 })
 
 test_that("compute values outside correctly", {

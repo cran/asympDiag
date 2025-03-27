@@ -1,9 +1,9 @@
-3996f3235fc1e7b8908a1f0cd19da15b *DESCRIPTION
+753fbf00eb95ce46c0d7c4f1a00a8fdf *DESCRIPTION
 5e68f881186e6a61f505641b625055d9 *LICENSE
 10fc6dc6eec403fc7f17c12a0a161888 *NAMESPACE
 efcc06f624ae15a021932f7778e81e15 *R/concat.R
 20d823f30ba70536276f3da959b5ff2f *R/diagnostic_plots.R
-49448de62981363d0c23ada0bd1fe425 *R/envelope.R
+931f32793a05c74500c20ef175e64b9d *R/envelope.R
 6d7ffdd6804300060b41b347676c842b *R/get_coefs_and_vcov.R
 bce22aabf9095b0d6fbc97578ab17802 *R/get_model_response.R
 f1c5b0fed12d73eca7808908fb615847 *R/get_refit.R
@@ -14,7 +14,7 @@ a6d8caccfbdc35ea82f58e87c57e1e79 *R/helper.R
 23643d5cb7ae1924f4427ce987159302 *R/zzz.R
 5ea8b504688a513ac3ca8fb054921ed5 *README.md
 7c6d2661bc3cfffa2c2ace044d43f986 *man/concat_pvalues.Rd
-2cee3539fdb38a44c58c6278d6ea0ad2 *man/envelope.Rd
+ac0cf5ae558e79963df8977f895d6ed2 *man/envelope.Rd
 072368e687929bb53febf90702ab7094 *man/envelope_residual.Rd
 fe2070509a7e0ee236ab7d71474572c6 *man/get_converged.Rd
 a3cc8812628a3d92f1bf548615ab5f34 *man/get_fixef.Rd
@@ -22,7 +22,7 @@ a7850b37500ee6fe1fc53feab135a924 *man/get_model_response.Rd
 b3f189f27701c8b95b4c158e82658900 *man/get_refit.Rd
 91f8e82d4f60b2cfb905a06e2f4e085b *man/get_vcov.Rd
 055b1784799d6db8b830dafb0bc09876 *man/parametric_bootstrap.Rd
-170ddcc6241f380d7980c4fcb58dc798 *man/plot.AD_envelope.Rd
+0e08d29654567466498589f34ef292b4 *man/plot.AD_envelope.Rd
 db165d82acc5bfeb288388585c061738 *man/plot.AD_pvalues.Rd
 da634cd7d46d1f129c3868d45e298d67 *man/plot_cook.Rd
 3e51f9ce493a5b1ec0444de4bc22e252 *man/plot_ecdf_pvalue.Rd
@@ -31,11 +31,11 @@ a0bf52b6fd4d686cf074ffa266c5d77d *man/plot_res_vs_linear_predictor.Rd
 5ad9116ce0a566101c7f90f91fff34ba *man/select_covariates.Rd
 333e53219f5e4081385d18499dc74624 *man/simulate_wald_pvalues.Rd
 7fdeef95423d027bb044071a874a827d *tests/testthat.R
-bd381c8497ed2d881f642748ed111068 *tests/testthat/Rplots.pdf
+c0392788aef2120c8ea211ba7448f990 *tests/testthat/Rplots.pdf
 8ade2ab7e8e41566b3018633e1d59b03 *tests/testthat/helper-fit.R
 86e7276f31a9092300cc50debf8a9fff *tests/testthat/test-concat.R
 89577accce0b530952849ea3234c816c *tests/testthat/test-diagnostic_plots.R
-b3a0e8109ede5c4406e19af2a38f7af5 *tests/testthat/test-envelope.R
+828f7d00d2126985c52c74df51a7477b *tests/testthat/test-envelope.R
 870eece6e522e538d4ae8d7f32dc3cb5 *tests/testthat/test-get_refit.R
 e3eb58403e16a3a096283df6bd22ee6c *tests/testthat/test-parametric_bootstrap.R
 f6a30604cde2c6133a400c6396c2e3b9 *tests/testthat/test-selection.R
