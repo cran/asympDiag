@@ -1,4 +1,4 @@
-a348a0af6d353fa8b4f17abc5523c73e *DESCRIPTION
+91b460a71de7cd5c6ca49b35a94ee303 *DESCRIPTION
 5e68f881186e6a61f505641b625055d9 *LICENSE
 10fc6dc6eec403fc7f17c12a0a161888 *NAMESPACE
 efcc06f624ae15a021932f7778e81e15 *R/concat.R
@@ -31,12 +31,12 @@ a0bf52b6fd4d686cf074ffa266c5d77d *man/plot_res_vs_linear_predictor.Rd
 5ad9116ce0a566101c7f90f91fff34ba *man/select_covariates.Rd
 333e53219f5e4081385d18499dc74624 *man/simulate_wald_pvalues.Rd
 7fdeef95423d027bb044071a874a827d *tests/testthat.R
-b8a2d8620c8030d1e109088f66858219 *tests/testthat/Rplots.pdf
+a972f8b08eac9506d1f30519eb54ac4f *tests/testthat/Rplots.pdf
 8ade2ab7e8e41566b3018633e1d59b03 *tests/testthat/helper-fit.R
-86e7276f31a9092300cc50debf8a9fff *tests/testthat/test-concat.R
+a41842bc92b2a0f4a217e8741dbdbd46 *tests/testthat/test-concat.R
 89577accce0b530952849ea3234c816c *tests/testthat/test-diagnostic_plots.R
-07b81209b2306adda093da84928d8f60 *tests/testthat/test-envelope.R
-870eece6e522e538d4ae8d7f32dc3cb5 *tests/testthat/test-get_refit.R
+289a354687107fa514ad177cb88a9bf2 *tests/testthat/test-envelope.R
+d943dd56fe2fbea438e10fd1dc0e173a *tests/testthat/test-get_refit.R
 e3eb58403e16a3a096283df6bd22ee6c *tests/testthat/test-parametric_bootstrap.R
 f6a30604cde2c6133a400c6396c2e3b9 *tests/testthat/test-selection.R
-929bb64e6669e0c80613ed83a20dbb2a *tests/testthat/test-simulate_wald_pvalues.R
+ed39793f654e15b9b2555dd27273379f *tests/testthat/test-simulate_wald_pvalues.R
